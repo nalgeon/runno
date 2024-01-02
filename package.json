@@ -1,0 +1,21 @@
+{
+    "name": "@antonz/runno",
+    "version": "0.6.1",
+    "description": "Runno WASI runtime.",
+    "author": "Ben Taylor <runno@taybenlor.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nalgeon/runno.git"
+    },
+    "type": "module",
+    "main": "./dist/runno.mjs",
+    "files": [
+        "dist/*"
+    ],
+    "devDependencies": {
+        "esbuild": "^0.19.11",
+        "typescript": "^5.1.6"
+    },
+    "scripts": {}
+}

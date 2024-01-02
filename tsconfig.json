@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "lib": ["ESNext", "DOM"],
+        "moduleResolution": "Node10",
+        "strict": true,
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "noEmit": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "experimentalDecorators": true,
+        "useDefineForClassFields": false,
+        "declaration": true,
+        "skipLibCheck": true,
+        "isolatedModules": true
+    },
+    "include": ["./src"],
+    "exclude": ["node_modules"]
+}
